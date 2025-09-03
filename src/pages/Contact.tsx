@@ -71,8 +71,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">Call Us</h3>
-                  <p className="text-sm text-muted-foreground">8630539143</p>
-                  <p className="text-sm text-muted-foreground">9557384195</p>
+                  <a href="tel:+918630539143" className="text-sm text-muted-foreground hover:text-primary transition-colors cursor-pointer block">8630539143</a>
+                  <a href="tel:+919557384195" className="text-sm text-muted-foreground hover:text-primary transition-colors cursor-pointer block">9557384195</a>
                 </div>
               </CardContent>
             </Card>
@@ -84,7 +84,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">Email Us</h3>
-                  <p className="text-sm text-muted-foreground break-all">focuscodelabs@gmail.com</p>
+                  <a href="mailto:focuscodelabs@gmail.com" className="text-sm text-muted-foreground hover:text-primary transition-colors cursor-pointer break-all">focuscodelabs@gmail.com</a>
                 </div>
               </CardContent>
             </Card>
@@ -96,7 +96,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">Website</h3>
-                  <p className="text-sm text-muted-foreground">focuscodelab.in</p>
+                  <a href="https://focuscodelab.in" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-primary transition-colors cursor-pointer">focuscodelab.in</a>
                 </div>
               </CardContent>
             </Card>
@@ -212,29 +212,29 @@ const Contact = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <div className="flex items-center space-x-3 p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
+                  <a href="tel:+918630539143" className="flex items-center space-x-3 p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors cursor-pointer">
                     <Phone className="text-primary" size={20} />
                     <div>
                       <p className="font-medium">Call for Immediate Help</p>
                       <p className="text-sm text-muted-foreground">Best for urgent queries</p>
                     </div>
-                  </div>
+                  </a>
                   
-                  <div className="flex items-center space-x-3 p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
+                  <a href="mailto:focuscodelabs@gmail.com" className="flex items-center space-x-3 p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors cursor-pointer">
                     <Mail className="text-primary" size={20} />
                     <div>
                       <p className="font-medium">Email for Detailed Queries</p>
                       <p className="text-sm text-muted-foreground">We respond within 24 hours</p>
                     </div>
-                  </div>
+                  </a>
 
-                  <div className="flex items-center space-x-3 p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
+                  <a href="https://t.me/+K7RZBun1LeQ5ZmY1" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors cursor-pointer">
                     <Send className="text-primary" size={20} />
                     <div>
                       <p className="font-medium">Join Our Telegram Group</p>
                       <p className="text-sm text-muted-foreground">Connect with other students</p>
                     </div>
-                  </div>
+                  </a>
                 </CardContent>
               </Card>
 
