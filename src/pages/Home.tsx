@@ -99,7 +99,9 @@ const Home = () => {
                   <li>• Real-world Projects</li>
                   <li>• Career Guidance</li>
                 </ul>
-                <Button className="gradient-primary text-white w-full">Enroll Now</Button>
+                <Button asChild className="gradient-primary text-white w-full">
+                  <Link to="/courses">Enroll Now</Link>
+                </Button>
               </CardContent>
             </Card>
             
@@ -118,7 +120,9 @@ const Home = () => {
                   <li>• CI/CD Pipelines</li>
                   <li>• Industry Certification</li>
                 </ul>
-                <Button className="gradient-secondary text-white w-full">Enroll Now</Button>
+                <Button asChild className="gradient-secondary text-white w-full">
+                  <Link to="/courses">Enroll Now</Link>
+                </Button>
               </CardContent>
             </Card>
             
@@ -137,7 +141,9 @@ const Home = () => {
                   <li>• App Store Publishing</li>
                   <li>• Monetization Strategies</li>
                 </ul>
-                <Button className="gradient-primary text-white w-full">Enroll Now</Button>
+                <Button asChild className="gradient-primary text-white w-full">
+                  <Link to="/courses">Enroll Now</Link>
+                </Button>
               </CardContent>
             </Card>
           </div>
