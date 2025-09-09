@@ -4,15 +4,15 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Users, Award, BookOpen, MessageCircle } from "lucide-react";
 import mentorPriya from "@/assets/mentor-priya.jpg";
-import mentorRajesh from "@/assets/mentor-rajesh.jpg";
+import mentorRajesh from "@/assets/mentor-rajesh.jpeg";
 
 const Mentors = () => {
   const mentors = [
     {
-      name: "Priya Sharma",
+      name: "Dr. Ambika Gupta",
       image: mentorPriya,
       expertise: "Full-Stack Development & Python Expert",
-      experience: "6+ years at Amazon, Microsoft & Flipkart",
+      experience: "15+ years at Teaching and Software Industry",
       description: "Priya is a passionate educator with extensive experience in building scalable web applications. She has mentored over 2000+ students and helped them secure positions at top tech companies. Her expertise spans across modern web technologies, cloud computing, and software architecture.",
       skills: ["React", "Node.js", "Python", "Django", "AWS", "MongoDB", "Docker", "Kubernetes"],
       specializations: [
@@ -29,11 +29,11 @@ const Mentors = () => {
       ]
     },
     {
-      name: "Rajesh Kumar",
+      name: "Akhilesh Chauhan",
       image: mentorRajesh,
       expertise: "Java & Data Structures Specialist",
-      experience: "8+ years at Google, Oracle & TCS",
-      description: "Rajesh is a seasoned software engineer with deep expertise in Java ecosystem and algorithmic problem solving. He has conducted 1000+ mock interviews and has an exceptional track record in placement preparation. His systematic approach to teaching DSA has helped hundreds crack top tech company interviews.",
+      experience: "17+ years at Amazon, Oracle & TCS",
+      description: "Akhilesh is a seasoned software engineer with deep expertise in Java ecosystem and algorithmic problem solving. He has conducted 1000+ mock interviews and has an exceptional track record in placement preparation. His systematic approach to teaching DSA has helped hundreds crack top tech company interviews.",
       skills: ["Java", "Spring Boot", "Data Structures", "Algorithms", "System Design", "MySQL", "Redis", "Kafka"],
       specializations: [
         "Data Structures & Algorithms",
@@ -57,11 +57,11 @@ const Mentors = () => {
         <div className="container mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
             Learn from{" "}
-            <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text">
               Industry Experts
             </span>
           </h1>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-muted max-w-3xl mx-auto">
             Our mentors are experienced professionals from top tech companies who are passionate about 
             teaching and helping students achieve their career goals.
           </p>
@@ -165,9 +165,7 @@ const Mentors = () => {
                     <Button className="gradient-primary text-white hover:shadow-hover flex-1">
                       Book 1:1 Session
                     </Button>
-                    <Button variant="outline" className="flex-1">
-                      View Courses
-                    </Button>
+                    
                   </div>
                 </div>
               </div>

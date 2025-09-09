@@ -6,8 +6,10 @@ import MentorCard from "@/components/ui/mentor-card";
 import { ArrowRight, BookOpen, Users, Award, MessageCircle, UserPlus, Gift, Calendar, Zap, Star, Trophy } from "lucide-react";
 import heroImage from "@/assets/hero-coding.jpg";
 import mentorPriya from "@/assets/mentor-priya.jpg";
-import mentorRajesh from "@/assets/mentor-rajesh.jpg";
+import mentorRajesh from "@/assets/mentor-rajesh.jpeg";
 import studentArjun from "@/assets/student-arjun.jpg";
+import studentq from "@/assets/students.jpeg";
+import studentw from "@/assets/studentp.jpg";
 
 const Home = () => {
   return (
@@ -25,14 +27,16 @@ const Home = () => {
               </div>
               <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
                 Empowering Students with{" "}
-                <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-                  Future-Ready
+                <span className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
+                  Future Ready
                 </span>{" "}
                 Coding Skills
               </h1>
-              <p className="text-xl text-muted-foreground">
+              <p className="text-xl text-muted">
+                <span className="text-Base font-semibold text-yellow-400">
                 Learn coding from school level to placements with expert mentors and real-world projects.
                 Join thousands of successful students who transformed their careers with us.
+                </span>
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="gradient-primary text-white hover:shadow-glow transition-all duration-300 group">
@@ -78,10 +82,10 @@ const Home = () => {
         <div className="container mx-auto text-center relative z-10">
           <h2 className="text-4xl font-bold text-foreground mb-6 flex items-center justify-center space-x-3">
             <Calendar className="text-accent" />
-            <span>🎄 New Year Special Offers 🎊</span>
+            <span>🎄 Diwali Special Offers 🎊</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-12">
-            Ring in the New Year with amazing discounts on our premium courses! Limited time offer.
+            Ring in the Upcomimg Diwali with amazing discounts on our premium courses! Limited time offer.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="gradient-card border-accent/30 shadow-glow card-hover">
@@ -89,8 +93,8 @@ const Home = () => {
                 <div className="text-4xl mb-4">🚀</div>
                 <h3 className="text-2xl font-bold text-accent">AI & Machine Learning Mastery</h3>
                 <div className="space-y-2">
-                  <span className="text-3xl font-bold text-foreground">₹2,999</span>
-                  <span className="text-lg line-through text-muted-foreground ml-2">₹9,999</span>
+                  <span className="text-3xl font-bold text-foreground">₹9500</span>
+                  <span className="text-lg line-through text-muted-foreground ml-2">₹21999</span>
                   <div className="gradient-accent text-white px-3 py-1 rounded-full text-sm font-semibold inline-block">70% OFF</div>
                 </div>
                 <ul className="text-sm text-muted-foreground space-y-1">
@@ -99,7 +103,8 @@ const Home = () => {
                   <li>• Real-world Projects</li>
                   <li>• Career Guidance</li>
                 </ul>
-                <Button className="gradient-primary text-white w-full">Enroll Now</Button>
+                <Button className="gradient-primary text-white w-full">
+                <a href="https://chat.whatsapp.com/HAlCzJTdPkGFzG0qBys8r6" target="_blank" rel="noopener noreferrer">Enroll Now</a></Button>
               </CardContent>
             </Card>
             
@@ -108,8 +113,8 @@ const Home = () => {
                 <div className="text-4xl mb-4">💻</div>
                 <h3 className="text-2xl font-bold text-primary">Cloud Computing & DevOps</h3>
                 <div className="space-y-2">
-                  <span className="text-3xl font-bold text-foreground">₹3,499</span>
-                  <span className="text-lg line-through text-muted-foreground ml-2">₹11,999</span>
+                  <span className="text-3xl font-bold text-foreground">₹9999</span>
+                  <span className="text-lg line-through text-muted-foreground ml-2">20,999</span>
                   <div className="gradient-primary text-white px-3 py-1 rounded-full text-sm font-semibold inline-block">71% OFF</div>
                 </div>
                 <ul className="text-sm text-muted-foreground space-y-1">
@@ -118,17 +123,18 @@ const Home = () => {
                   <li>• CI/CD Pipelines</li>
                   <li>• Industry Certification</li>
                 </ul>
-                <Button className="gradient-secondary text-white w-full">Enroll Now</Button>
+                <Button className="gradient-secondary text-white w-full">
+                <a href="https://chat.whatsapp.com/HAlCzJTdPkGFzG0qBys8r6" target="_blank" rel="noopener noreferrer">Enroll Now</a></Button>
               </CardContent>
             </Card>
             
             <Card className="gradient-card border-accent/30 shadow-glow card-hover">
               <CardContent className="p-6 text-center space-y-4">
                 <div className="text-4xl mb-4">📱</div>
-                <h3 className="text-2xl font-bold text-accent">Mobile App Development Pro</h3>
+                <h3 className="text-2xl font-bold text-accent">Mobile App Development</h3>
                 <div className="space-y-2">
-                  <span className="text-3xl font-bold text-foreground">₹2,499</span>
-                  <span className="text-lg line-through text-muted-foreground ml-2">₹8,999</span>
+                  <span className="text-3xl font-bold text-foreground">₹9999</span>
+                  <span className="text-lg line-through text-muted-foreground ml-2">₹19,999</span>
                   <div className="gradient-accent text-white px-3 py-1 rounded-full text-sm font-semibold inline-block">72% OFF</div>
                 </div>
                 <ul className="text-sm text-muted-foreground space-y-1">
@@ -137,7 +143,8 @@ const Home = () => {
                   <li>• App Store Publishing</li>
                   <li>• Monetization Strategies</li>
                 </ul>
-                <Button className="gradient-primary text-white w-full">Enroll Now</Button>
+                <Button className="gradient-primary text-white w-full">
+                  <a href="https://chat.whatsapp.com/HAlCzJTdPkGFzG0qBys8r6" target="_blank" rel="noopener noreferrer">Enroll Now</a></Button>
               </CardContent>
             </Card>
           </div>
@@ -276,22 +283,22 @@ const Home = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <TestimonialCard
-              name="Arjun Sharma"
+              name="Vishnu Chauhan"
               image={studentArjun}
               text="Focus CodeLabs helped me crack my coding interviews with confidence. The DSA course was exceptional!"
               rating={5}
               course="Data Structures & Algorithms Pro"
             />
             <TestimonialCard
-              name="Priya Patel"
-              image={mentorPriya}
+              name="Sparsh Sengar"
+              image={studentq}
               text="The mentors explain every concept with clarity and give real-world examples. Highly recommended!"
               rating={5}
               course="Full-Stack Development Mastery"
             />
             <TestimonialCard
-              name="Rohit Kumar"
-              image={mentorRajesh}
+              name="Prabal Pratap"
+              image={studentw}
               text="Best place to learn coding for beginners — I started from zero and now I'm a frontend developer!"
               rating={5}
               course="Complete Web Development Bootcamp"
@@ -308,19 +315,19 @@ const Home = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <MentorCard
-              name="Priya Sharma"
+              name="Dr.Ambika Gupta"
               image={mentorPriya}
               expertise="Full-Stack Development & Python"
-              experience="6+ years in software development"
-              description="Former senior developer at Amazon, passionate about teaching clean code practices and modern web technologies."
+              experience="15+ years in Teaching and Mentorship"
+              description="Former senior developer passionate about teaching clean code practices and modern web technologies."
               skills={["React", "Python", "Django", "AWS", "MongoDB"]}
             />
             <MentorCard
-              name="Rajesh Kumar"
+              name="Akhilesh Chauhan"
               image={mentorRajesh}
               expertise="Java & Data Structures"
-              experience="8+ years in enterprise development"
-              description="Ex-Google engineer specializing in scalable systems and algorithm optimization. Expert in placement preparation."
+              experience="17+ years in Software development"
+              description="An Engineer specializing in scalable systems and algorithm optimization. Expert in placement preparation."
               skills={["Java", "Spring Boot", "DSA", "System Design", "Microservices"]}
             />
           </div>

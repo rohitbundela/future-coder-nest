@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import MentorCard from "@/components/ui/mentor-card";
 import { Target, Eye, Users, Award, BookOpen, Code } from "lucide-react";
 import mentorPriya from "@/assets/mentor-priya.jpg";
-import mentorRajesh from "@/assets/mentor-rajesh.jpg";
+import mentorRajesh from "@/assets/mentor-rajesh.jpeg";
 
 const About = () => {
   return (
@@ -11,10 +11,12 @@ const About = () => {
       <section className="hero-pattern py-20 px-4">
         <div className="container mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
-            About <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">Focus CodeLabs</span>
+            About <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text">Focus CodeLabs</span>
           </h1>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-muted max-w-3xl mx-auto">
+            <span className="text-Base font-semibold text-yellow-400">
             Transforming coding education through personalized mentorship, practical projects, and industry-focused curriculum.
+            </span>
           </p>
         </div>
       </section>
@@ -48,7 +50,7 @@ const About = () => {
                       <div className="gradient-primary w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
                         <Users className="text-white" size={24} />
                       </div>
-                      <h3 className="text-2xl font-bold text-foreground">5000+</h3>
+                      <h3 className="text-2xl font-bold text-foreground">100+</h3>
                       <p className="text-sm text-muted-foreground">Students Trained</p>
                     </div>
                     <div className="text-center">
@@ -133,18 +135,18 @@ const About = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <MentorCard
-              name="Priya Sharma"
+              name="Dr. Ambika Gupta"
               image={mentorPriya}
               expertise="Co-Founder & Lead Full-Stack Instructor"
-              experience="6+ years at Amazon & Microsoft"
+              experience="15+ years at Amazon & Microsoft"
               description="Priya leads our full-stack development programs and has mentored over 2000+ students. She specializes in modern web technologies and cloud architecture."
               skills={["React", "Node.js", "Python", "AWS", "System Design", "MongoDB"]}
             />
             <MentorCard
-              name="Rajesh Kumar"
+              name="Mr Akhilesh Chauhan"
               image={mentorRajesh}
               expertise="Co-Founder & Java/DSA Expert"
-              experience="8+ years at Google & Oracle"
+              experience="17+ years at Google & Oracle"
               description="Rajesh heads our placement preparation programs and has an exceptional track record in helping students crack top tech company interviews."
               skills={["Java", "Spring Boot", "Data Structures", "Algorithms", "System Design", "Interview Coaching"]}
             />

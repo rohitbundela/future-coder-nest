@@ -14,8 +14,8 @@ const NoticeBar = () => {
       </div>
       <div className="flex items-center justify-center space-x-3 relative z-10">
         <Gift className="h-5 w-5 animate-pulse" />
-        <span className="text-sm font-semibold">
-          🎄 New Year Mega Sale! Get up to 72% OFF on all courses - Limited Time Offer! 🎊
+        <span className="text-sm font-semibold text-yellow-400">
+          🎄 Diwali Mega Sale! Get up to 72% OFF on all courses - Limited Time Offer! 🎊
         </span>
         <Sparkles className="h-5 w-5 animate-pulse" />
         <button

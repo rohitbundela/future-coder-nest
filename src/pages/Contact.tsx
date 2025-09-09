@@ -49,13 +49,15 @@ const Contact = () => {
         <div className="container mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
             Get in{" "}
-            <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text">
               Touch
             </span>
           </h1>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-muted max-w-3xl mx-auto">
+            <span className="text-Base font-semibold text-yellow-400">
             Have questions about our courses? Need guidance on your learning path? 
             We're here to help you every step of the way.
+            </span>
           </p>
         </div>
       </section>
@@ -72,7 +74,7 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">Call Us</h3>
                   <p className="text-sm text-muted-foreground">8630539143</p>
-                  <p className="text-sm text-muted-foreground">9557384195</p>
+                  
                 </div>
               </CardContent>
             </Card>
@@ -212,6 +214,7 @@ const Contact = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
+                  
                   <div className="flex items-center space-x-3 p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
                     <Phone className="text-primary" size={20} />
                     <div>
@@ -219,6 +222,7 @@ const Contact = () => {
                       <p className="text-sm text-muted-foreground">Best for urgent queries</p>
                     </div>
                   </div>
+                  
                   
                   <div className="flex items-center space-x-3 p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
                     <Mail className="text-primary" size={20} />
