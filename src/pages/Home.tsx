@@ -105,6 +105,10 @@ const Home = () => {
                 </ul>
                 <Button className="gradient-primary text-white w-full">
                 <a href="https://chat.whatsapp.com/HAlCzJTdPkGFzG0qBys8r6" target="_blank" rel="noopener noreferrer">Enroll Now</a></Button>
+
+                <Button asChild className="gradient-primary text-white w-full">
+                  <Link to="/courses">Enroll Now</Link>
+                </Button>
               </CardContent>
             </Card>
             
@@ -123,8 +127,13 @@ const Home = () => {
                   <li>• CI/CD Pipelines</li>
                   <li>• Industry Certification</li>
                 </ul>
+
                 <Button className="gradient-secondary text-white w-full">
                 <a href="https://chat.whatsapp.com/HAlCzJTdPkGFzG0qBys8r6" target="_blank" rel="noopener noreferrer">Enroll Now</a></Button>
+
+                <Button asChild className="gradient-secondary text-white w-full">
+                  <Link to="/courses">Enroll Now</Link>
+                </Button>
               </CardContent>
             </Card>
             
@@ -145,6 +154,9 @@ const Home = () => {
                 </ul>
                 <Button className="gradient-primary text-white w-full">
                   <a href="https://chat.whatsapp.com/HAlCzJTdPkGFzG0qBys8r6" target="_blank" rel="noopener noreferrer">Enroll Now</a></Button>
+                <Button asChild className="gradient-primary text-white w-full">
+                  <Link to="/courses">Enroll Now</Link>
+                </Button>
               </CardContent>
             </Card>
           </div>

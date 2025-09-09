@@ -214,7 +214,10 @@ const Contact = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  
+                  <a
+      href="tel:8630539143"
+      className="flex items-center space-x-3 p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors"
+    ></a>
                   <div className="flex items-center space-x-3 p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
                     <Phone className="text-primary" size={20} />
                     <div>
@@ -222,7 +225,6 @@ const Contact = () => {
                       <p className="text-sm text-muted-foreground">Best for urgent queries</p>
                     </div>
                   </div>
-                  
                   
                   <div className="flex items-center space-x-3 p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
                     <Mail className="text-primary" size={20} />
