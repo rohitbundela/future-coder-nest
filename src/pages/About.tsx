@@ -139,7 +139,7 @@ const About = () => {
               image={mentorPriya}
               expertise="Co-Founder & Lead Full-Stack Instructor"
               experience="15+ years at Amazon & Microsoft"
-              description="Priya leads our full-stack development programs and has mentored over 2000+ students. She specializes in modern web technologies and cloud architecture."
+              description="Ambika leads our full-stack development programs and has mentored over 2000+ students. She specializes in modern web technologies and cloud architecture."
               skills={["React", "Node.js", "Python", "AWS", "System Design", "MongoDB"]}
             />
             <MentorCard
@@ -147,7 +147,7 @@ const About = () => {
               image={mentorRajesh}
               expertise="Co-Founder & Java/DSA Expert"
               experience="17+ years at Google & Oracle"
-              description="Rajesh heads our placement preparation programs and has an exceptional track record in helping students crack top tech company interviews."
+              description="Akhilesh heads our placement preparation programs and has an exceptional track record in helping students crack top tech company interviews."
               skills={["Java", "Spring Boot", "Data Structures", "Algorithms", "System Design", "Interview Coaching"]}
             />
           </div>

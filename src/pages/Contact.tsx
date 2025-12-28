@@ -86,7 +86,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">Email Us</h3>
-                  <p className="text-sm text-muted-foreground break-all">focuscodelabs@gmail.com</p>
+                  <p className="text-sm text-muted-foreground break-all">support@focuscodelabs.com</p>
                 </div>
               </CardContent>
             </Card>
@@ -98,7 +98,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">Website</h3>
-                  <p className="text-sm text-muted-foreground">focuscodelab.in</p>
+                  <p className="text-sm text-muted-foreground">focuscodelabs.com</p>
                 </div>
               </CardContent>
             </Card>

@@ -13,7 +13,7 @@ const Mentors = () => {
       image: mentorPriya,
       expertise: "Full-Stack Development & Python Expert",
       experience: "15+ years at Teaching and Software Industry",
-      description: "Priya is a passionate educator with extensive experience in building scalable web applications. She has mentored over 2000+ students and helped them secure positions at top tech companies. Her expertise spans across modern web technologies, cloud computing, and software architecture.",
+      description: "Ambika is a passionate educator with extensive experience in building scalable web applications. She has mentored over 2000+ students and helped them secure positions at top tech companies. Her expertise spans across modern web technologies, cloud computing, and software architecture.",
       skills: ["React", "Node.js", "Python", "Django", "AWS", "MongoDB", "Docker", "Kubernetes"],
       specializations: [
         "Full-Stack Web Development",

@@ -25,8 +25,18 @@ const Home = () => {
                   <span>🎄 Festive Sale - Up to 70% OFF!</span>
                 </div>
               </div>
+             <h1 className="inline-block px-8 py-4 text-4xl md:text-5xl font-bold
+           text-[#d4af37]
+           border border-[#d4af37] rounded-lg
+           bg-black">
+  IT Solutions & Software Services Provider 
+</h1>
+
+
+
+
               <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
-                Empowering Students with{" "}
+                  Empowering Personels with{" "}
                 <span className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
                   Future Ready
                 </span>{" "}
@@ -82,7 +92,7 @@ const Home = () => {
         <div className="container mx-auto text-center relative z-10">
           <h2 className="text-4xl font-bold text-foreground mb-6 flex items-center justify-center space-x-3">
             <Calendar className="text-accent" />
-            <span>🎄 Diwali Special Offers 🎊</span>
+            <span>🎄 Festivals Special Offers 🎊</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-12">
             Ring in the Upcomimg Diwali with amazing discounts on our premium courses! Limited time offer.

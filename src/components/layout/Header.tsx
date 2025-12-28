@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Code, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import kp from "@/assets/logo.jpeg";
+
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,6 +15,7 @@ const Header = () => {
     { name: "Courses", path: "/courses" },
     { name: "Mentors", path: "/mentors" },
     { name: "Contact", path: "/contact" },
+    { name: "Our Services", path: "/services" },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -23,18 +26,32 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Enhanced Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="gradient-primary p-3 rounded-xl shadow-glow group-hover:shadow-hover transition-all duration-300 relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              <Code className="h-6 w-6 text-white relative z-10" />
-              <Sparkles className="h-3 w-3 text-white/80 absolute top-1 right-1 animate-pulse" />
-            </div>
-            <div className="flex flex-col">
-              <span className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
-                Focus CodeLabs
-              </span>
-              <span className="text-xs text-muted-foreground -mt-1">Future-Ready Skills</span>
-            </div>
-          </Link>
+  {/* Circular Logo */}
+  <div className="relative w-12 h-12 rounded-full overflow-hidden
+                  shadow-glow group-hover:shadow-hover
+                  transition-all duration-300
+                  bg-white border border-primary/30
+                  flex items-center justify-center">
+    <img
+      src={kp}
+      alt="Focus CodeLabs Logo"
+      className="w-full h-full object-cover"
+    />
+    <Sparkles className="h-3 w-3 text-primary absolute top-0.5 right-0.5 animate-pulse" />
+  </div>
+
+  {/* Text */}
+  <div className="flex flex-col">
+    <span className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
+      Focus CodeLabs
+    </span>
+    <span className="text-xs text-muted-foreground -mt-1">
+      Future-Ready Skills
+    </span>
+  </div>
+</Link>
+
+
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">

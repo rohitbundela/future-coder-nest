@@ -63,20 +63,20 @@ const Footer = () => {
                 </div>
                 <div>
                   <p>8630539143</p>
-                  <p>9557384195</p>
+            
                 </div>
               </li>
               <li className="flex items-center space-x-3 text-sm text-muted-foreground">
                 <div className="gradient-accent p-2 rounded-lg">
                   <Mail size={16} className="text-white" />
                 </div>
-                <span>focuscodelabs@gmail.com</span>
+                <span>support@focuscodelabs.com</span>
               </li>
               <li className="flex items-center space-x-3 text-sm text-muted-foreground">
                 <div className="gradient-primary p-2 rounded-lg">
                   <Globe size={16} className="text-white" />
                 </div>
-                <span>focuscodelab.in</span>
+                <span>focuscodelabs.com</span>
               </li>
             </ul>
           </div>
