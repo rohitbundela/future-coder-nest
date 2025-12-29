@@ -95,7 +95,7 @@ const Home = () => {
             <span>🎄 Festivals Special Offers 🎊</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-12">
-            Ring in the Upcomimg Diwali with amazing discounts on our premium courses! Limited time offer.
+            Ring in the Upcomimg  with amazing discounts on our premium courses! Limited time offer.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="gradient-card border-accent/30 shadow-glow card-hover">

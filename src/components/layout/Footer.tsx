@@ -1,17 +1,21 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, Globe, Instagram, Youtube, Send, Sparkles, Code } from "lucide-react";
+import { Phone, Mail, Globe, Sparkles, Code } from "lucide-react";
+import { FaInstagram, FaYoutube, FaTelegramPlane } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="gradient-card border-t border-border/50 relative overflow-hidden">
+      {/* Decorative Background Icons */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-10 left-10 text-4xl">💻</div>
         <div className="absolute top-20 right-20 text-3xl">🚀</div>
         <div className="absolute bottom-20 left-20 text-4xl">⚡</div>
         <div className="absolute bottom-10 right-10 text-3xl">🎯</div>
       </div>
+
       <div className="container mx-auto px-4 py-12 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
@@ -24,6 +28,7 @@ const Footer = () => {
                 <p className="text-xs text-muted-foreground">Future-Ready Skills</p>
               </div>
             </div>
+
             <p className="text-muted-foreground text-sm">
               Empowering students with cutting-edge coding skills from basics to advanced placement preparation.
             </p>
@@ -61,17 +66,16 @@ const Footer = () => {
                 <div className="gradient-secondary p-2 rounded-lg">
                   <Phone size={16} className="text-white" />
                 </div>
-                <div>
-                  <p>8630539143</p>
-            
-                </div>
+                <span>8630539143</span>
               </li>
+
               <li className="flex items-center space-x-3 text-sm text-muted-foreground">
                 <div className="gradient-accent p-2 rounded-lg">
                   <Mail size={16} className="text-white" />
                 </div>
                 <span>support@focuscodelabs.com</span>
               </li>
+
               <li className="flex items-center space-x-3 text-sm text-muted-foreground">
                 <div className="gradient-primary p-2 rounded-lg">
                   <Globe size={16} className="text-white" />
@@ -81,35 +85,57 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Social Links */}
+          {/* Social Media (REALISTIC ICONS) */}
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-foreground">Follow Us</h4>
+
             <div className="flex space-x-4">
+              {/* Instagram */}
               <a
                 href="https://www.instagram.com/focus_codelabs?igsh=Z3lmcXNwY3d6MzNx"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="gradient-accent p-3 rounded-full text-white hover:shadow-glow transition-all duration-300 group"
+                className="
+                  bg-gradient-to-tr from-[#f58529] via-[#dd2a7b] to-[#8134af]
+                  p-3 rounded-full text-white
+                  hover:shadow-[0_0_20px_rgba(221,42,123,0.8)]
+                  transition-all duration-300 group
+                "
               >
-                <Instagram size={20} className="group-hover:scale-110 transition-transform" />
+                <FaInstagram size={22} className="group-hover:scale-110 transition-transform" />
               </a>
+
+              {/* YouTube */}
               <a
                 href="https://youtube.com/@focuscodelabs?si=MqBo-e9B-hsaDCpF"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="gradient-primary p-3 rounded-full text-white hover:shadow-glow transition-all duration-300 group"
+                className="
+                  bg-[#FF0000]
+                  p-3 rounded-full text-white
+                  hover:shadow-[0_0_20px_rgba(255,0,0,0.8)]
+                  transition-all duration-300 group
+                "
               >
-                <Youtube size={20} className="group-hover:scale-110 transition-transform" />
+                <FaYoutube size={22} className="group-hover:scale-110 transition-transform" />
               </a>
+
+              {/* Telegram */}
               <a
                 href="https://t.me/+K7RZBun1LeQ5ZmY1"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="gradient-secondary p-3 rounded-full text-white hover:shadow-glow transition-all duration-300 group"
+                className="
+                  bg-[#0088cc]
+                  p-3 rounded-full text-white
+                  hover:shadow-[0_0_20px_rgba(0,136,204,0.8)]
+                  transition-all duration-300 group
+                "
               >
-                <Send size={20} className="group-hover:scale-110 transition-transform" />
+                <FaTelegramPlane size={22} className="group-hover:scale-110 transition-transform" />
               </a>
             </div>
+
             <p className="text-xs text-muted-foreground">
               Join our community for coding tips, updates, and exclusive content!
             </p>
@@ -123,13 +149,13 @@ const Footer = () => {
               © 2025 Focus CodeLabs. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <Link to="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+              <Link to="#" className="text-sm text-muted-foreground hover:text-primary">
                 Privacy Policy
               </Link>
-              <Link to="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+              <Link to="#" className="text-sm text-muted-foreground hover:text-primary">
                 Terms of Service
               </Link>
-              <Link to="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+              <Link to="#" className="text-sm text-muted-foreground hover:text-primary">
                 Refund Policy
               </Link>
             </div>

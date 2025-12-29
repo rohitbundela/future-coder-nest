@@ -66,7 +66,7 @@ const CourseCard = ({
             <span className="text-lg text-muted-foreground line-through">₹{originalPrice.toLocaleString()}</span>
             <Badge className="gradient-accent text-white">{discount}% OFF</Badge>
           </div>
-          <p className="text-sm text-accent font-medium">🎉 Diwali Special Offer!</p>
+          <p className="text-sm text-accent font-medium">🎉 Festive Special Offer!</p>
         </div>
 
         <Button className="w-full gradient-primary text-white">
